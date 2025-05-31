@@ -26,25 +26,24 @@ export default function HomePage() {
       </section>
 
       {/* Loja */}
-      <section id="loja" className="py-16 bg-white max-w-6xl mx-auto px-4">
-        <h3 className="text-2xl font-bold mb-8">Loja</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Produtos */}
-          <div className="border rounded-2xl shadow p-4">
-            <div className="bg-gray-100 h-48 rounded mb-4" />
-            <h4 className="font-semibold">Vela Aromática</h4>
-            <p className="text-gray-600 text-sm">Feita à mão com ingredientes naturais para relaxar seu ambiente.</p>
-            <p className="font-bold mt-2">R$ 45,00</p>
-          </div>
-          <div className="border rounded-2xl shadow p-4">
-            <div className="bg-gray-100 h-48 rounded mb-4" />
-            <h4 className="font-semibold">E-book: Guia do Artesão Digital</h4>
-            <p className="text-gray-600 text-sm">Aprenda a criar e vender seus produtos artesanais no mundo digital.</p>
-            <p className="font-bold mt-2">R$ 30,00</p>
-          </div>
-        </div>
-      </section>
-
+<section id="loja" className="py-16 bg-white max-w-6xl mx-auto px-4">
+  <h3 className="text-2xl font-bold mb-8">Loja</h3>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {/* Produtos */}
+    <div className="border rounded-2xl shadow p-4">
+      <div className="bg-gray-100 h-48 rounded mb-4" />
+      <h4 className="font-semibold">Vela Aromática</h4>
+      <p className="text-gray-600 text-sm">Feita à mão com ingredientes naturais para relaxar seu ambiente.</p>
+      <p className="font-bold mt-2">R$ 45,00</p>
+    </div>
+    <div className="border rounded-2xl shadow p-4">
+      <div className="bg-gray-100 h-48 rounded mb-4" />
+      <h4 className="font-semibold">E-book: Guia do Artesão Digital</h4>
+      <p className="text-gray-600 text-sm">Aprenda a criar e vender seus produtos artesanais no mundo digital.</p>
+      <p className="font-bold mt-2">R$ 30,00</p>
+    </div>
+  </div>
+</section>
       {/* Sobre */}
       <section id="sobre" className="py-16 bg-green-50 text-center px-4">
         <h3 className="text-2xl font-bold mb-4">Sobre o Artes & Bytes</h3>
